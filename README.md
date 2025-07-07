@@ -1,9 +1,10 @@
 # DevToolBox
 
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/yourusername/devtoolbox?style=flat-square)
-![GitHub issues](https://img.shields.io/github/issues/yourusername/devtoolbox?style=flat-square)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/yourusername/devtoolbox?style=flat-square)
-![GitHub](https://img.shields.io/github/license/yourusername/devtoolbox?style=flat-square)
+
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/rusilkoirala/devtoolbox?style=flat-square)
+![GitHub issues](https://img.shields.io/github/issues/rusilkoirala/devtoolbox?style=flat-square)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/rusilkoirala/devtoolbox?style=flat-square)
+![GitHub](https://img.shields.io/github/license/rusilkoirala/devtoolbox?style=flat-square)
 
 A modern, installable desktop-style PWA and native app for developers. Includes essential tools: JSON Formatter, JWT Decoder, Regex Tester, UUID Generator, Base64 Encoder/Decoder, and Markdown Previewer. Built with Vite, React, Tailwind CSS, and Electron.
 

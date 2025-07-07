@@ -1,0 +1,51 @@
+{
+  "name": "devtoolbox",
+  "version": "1.0.0",
+  "description": "A modern, installable desktop-style PWA for developers. JSON, JWT, Regex, UUID, Base64, Markdown tools.",
+  "main": "main.js",
+  "productName": "DevToolBox",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/devtoolbox.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/devtoolbox/issues"
+  },
+  "homepage": "https://github.com/yourusername/devtoolbox#readme",
+  "scripts": {
+    "dev": "concurrently \"vite\" \"wait-on http://localhost:5173 && electron .\"",
+    "build": "vite build",
+    "electron:build": "npm run build && electron-builder"
+  },
+  "build": {
+    "appId": "com.devtoolbox.app",
+    "productName": "DevToolBox",
+    "files": [
+      "dist/**/*",
+      "main.js"
+    ],
+    "icon": "public/logo.ico"
+  },
+  "dependencies": {
+    "copy-to-clipboard": "^3.3.3",
+    "prismjs": "^1.29.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-markdown": "^8.0.7",
+    "react-simple-code-editor": "^0.12.0",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^2.0.0-beta.14",
+    "@vitejs/plugin-react": "^4.2.1",
+    "autoprefixer": "^10.4.14",
+    "concurrently": "^8.2.2",
+    "electron": "^30.0.0",
+    "electron-builder": "^24.6.0",
+    "postcss": "^8.4.24",
+    "tailwindcss": "^3.3.3",
+    "vite": "^7.0.2",
+    "vite-plugin-pwa": "^0.19.0",
+    "wait-on": "^7.0.1"
+  }
+}
